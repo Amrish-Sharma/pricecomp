@@ -1,0 +1,4 @@
+amazon_url=https://www.amazon.in/s?k={keyword}}&linkCode=ll2&tag=534ade-21
+
+
+flipkart_class= B_NuCI
