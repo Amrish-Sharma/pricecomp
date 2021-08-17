@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
       function (tabs) {
         //alert(tabs[0].url);
 
+        findCompetitor();
         textinfo.innerHTML = "URL is: " + tabs[0].url;
 
 
@@ -51,7 +52,7 @@ function findOnAmazon(title) {
 
 function findCompetitor() {
 
-  var title = $(".B_NuCI").textContent;
+  var title = $(window)('.B_NuCI').textContent;
 
   if (title) {
     findOnAmazon(title);

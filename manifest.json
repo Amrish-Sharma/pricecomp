@@ -23,6 +23,7 @@
     "name": "PriceComp",
     "permissions": [
         "tabs",
+        "activeTab",
         "https://www.flipkart.com/*",
         "https://amazon.in/*"
     ],
