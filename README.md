@@ -1,6 +1,6 @@
-##Price comparision Google Chrome extension
+# **Price comparision Google Chrome extension**
 
-#How it works
+## How it works
 1. You install Chrome Extension
 2. You follow ecommerce website (Amazon/Flipkart) and open products page
 3. Open Chrome extension and click on "Find best price" button in popup page
@@ -9,7 +9,7 @@
 5. User clicks on clicable link and buys the product from other website
 
 
-#How it works(behind the scenes)
+## How it works(behind the scenes)
 1. When user clicks on "find best price", It fetches below detail from current website
     1. Product Title(exact keyword that we need to search on other website) i.e., current_prod_title
     2. Active price of product in current website(after discount) i.e., current_prod_price
