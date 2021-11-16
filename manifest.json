@@ -18,14 +18,14 @@
             "run_at": "document_end"
         }
     ],
-    "description": "Compare prices of products on Flipkart and Amazon",
+    "description": "Compare prices of products on Flipkart and Amazon and then share the subsequent product",
     "manifest_version": 2,
     "name": "PriceComp",
     "permissions": [
         "tabs",
         "activeTab",
-        "https://www.flipkart.com/*",
-        "https://amazon.in/*"
+        "https://www.flipkart.com/",
+        "https://amazon.in/"
     ],
     "version": "1.0"
 }
